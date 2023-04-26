@@ -1,34 +1,45 @@
-h2{
+h2 {
     color: rgb(219, 153, 153);
     font-size: 20px;
 }
 
-h1{
+h1 {
     color: rgb(61, 56, 56);
-    text-align: center;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.destacado{
+.destacado {
     font-weight: bold;
     font-style: italic;
 }
 
-p{
+p {
     color: rgb(61, 56, 56);
     line-height: 22px;
 }
 
-ul{
+ul {
     color: rgb(219, 153, 153);
 }
 
-.arriba{
-    background-color: rgb(219, 153, 153);
-    width: 800px;
+.arriba {
+    width: 1350px;
     height: 300px;
+    background: rgb(219, 153, 153);
+    background: linear-gradient(223deg, rgba(219, 153, 153, 1) 1%, rgba(154, 113, 113, 1) 12%, rgba(61, 56, 56, 1) 23%, rgba(94, 76, 76, 1) 35%, rgba(219, 153, 153, 1) 95%);
 }
 
-.arial{
+.arial {
     font-family: Arial;
+}
+
+.fotog {
+    margin-left: 20px;
+    float: left;
+    box-shadow: 21px 28px 16px 0px rgba(61, 56, 56, 0.46);
+}
+
+.colum {
+    column-count: 2;
 }
